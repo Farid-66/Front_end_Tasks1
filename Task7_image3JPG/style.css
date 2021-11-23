@@ -1,0 +1,22 @@
+body{
+    padding: 20px;
+}
+
+.container{
+    border: 3px solid green;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    height: 600px;
+    padding: 20px;
+}
+
+blockquote{
+    background-color: rgba(139, 212, 255, 0.849);
+    padding: 6px;
+    border-bottom: 3px solid green;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+p:last-child{
+    line-height: 45px;
+}

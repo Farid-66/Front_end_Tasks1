@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(114, 114, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.container{
+    width: 450px;
+    height: 540px;
+    border-radius: 7px;
+    background-color: white;
+    background-color: rgb(240, 240, 240);
+}
+.subcontainer{
+    width: 85%;
+    margin:23px auto 0 auto ;
+    text-align: center;
+    color: rgb(107, 107, 107);
+}
+
+h1{
+    margin: 7px;
+}
+p{
+    margin-bottom: 25px;
+}
+.title::after{
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 10px;
+    height: 2px;
+    width: 110px;
+    background-color: rgb(146, 146, 146);
+}
+.title::before{
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -115px;
+    height: 2px;
+    width: 110px;
+    background-color: rgb(146, 146, 146);
+}
+
+
+.fullname{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullname>input{
+    padding: 8px;
+    width: 160px;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.passinput{
+    display: flex;
+    flex-direction: column;
+}
+.passinput>input{
+    padding: 8px;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.check{
+    margin: 30px 0 30px 0;
+    display: flex;
+}
+#check{
+    width: 18px;
+    height: 25px;
+    margin-right:10px;
+}
+
+#submit{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(42, 129, 42);
+    color: white;
+    text-shadow: 1px -2px #937b7b
+}

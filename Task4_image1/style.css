@@ -1,0 +1,19 @@
+p{
+    color: red;
+}
+
+p:first-child{
+    color: green;
+}
+
+p:nth-child(7){
+    color: indigo;
+}
+p:nth-child(8){
+    background-color: lightseagreen;
+}
+p:last-child{
+    display: inline-block;
+    color:yellow;
+    background-color: gray;
+}
