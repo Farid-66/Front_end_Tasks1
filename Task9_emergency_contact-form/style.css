@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(204, 176, 231);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 40%;
+    margin-top: 20px;
+    background-color: floralwhite;
+    padding: 50px;
+    border-radius: 6px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+label {
+    flex-basis: 30%;
+    font-weight: 600;
+}
+
+
+.fullname,
+.email,
+.phone,
+.address,
+.patient {
+    display: flex;
+    margin-top: 40px;
+}
+
+.fullname>div,
+.email>div,
+.phone>div,
+.address>div {
+    flex-basis: 70%;
+    position: relative;
+}
+
+.fullname>div>input,
+.phone>div>input {
+    width: 40%;
+    padding: 4px;
+    margin-right: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(146, 146, 146);
+    font-size: 16px;
+}
+
+.phone>div>input:first-child {
+    width: 60px;
+}
+
+.email>div>input,
+.address>div>input {
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid rgb(146, 146, 146);
+    font-size: 16px;
+}
+
+.address>div>input {
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid rgb(146, 146, 146);
+    font-size: 16px;
+}
+.patient>div>input{
+    margin-right: 10px;
+}
+
+.submitbtn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#submit {
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(55, 52, 231);
+    color: white;
+}
+
+#city,
+#state,
+#zipcode,
+#select {
+    width: 40%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid rgb(146, 146, 146);
+    font-size: 16px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+small {
+    color: rgb(165, 165, 165);
+    display: block;
+}
+
+
+
+#firstname,
+#areacode {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+
+#citys {
+    position: absolute;
+    top: 150px;
+    left: 5px;
+}
+
+#zipcodes {
+    position: absolute;
+    top: 210px;
+    left: 5px;
+}
+
+#selects {
+    position: absolute;
+    top: 210px;
+    left: 180px;
+}
+
+#states {
+    position: absolute;
+    top: 150px;
+    left: 180px;
+}
+
+#phonenumber {
+    position: absolute;
+    top: 30px;
+    left: 95px;
+}
+
+#lastname {
+    position: absolute;
+    top: 30px;
+    right: 125px;
+}

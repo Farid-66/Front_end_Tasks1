@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 40%;
+    height: 700px;
+    background-color: floralwhite;
+    margin: 30px auto 0 auto;
+    padding: 30px;
+}
+
+.name,
+.email,
+.password,
+.firstname,
+.lastname,
+.phone,
+.street,
+.city,
+.state,
+.zipcode,
+.country{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+label{
+    flex-basis: 40%;
+    font-weight: 900;
+}
+.name>div,
+.email>div,
+.password>div,
+.firstname>div,
+.lastname>div,
+.phone>div,
+.street>div,
+.city>div,
+.state>div,
+.zipcode>div,
+.country>div{
+    flex-basis: 70%;
+}
+.name>div>input,
+.email>div>input,
+.password>div>input,
+.firstname>div>input,
+.lastname>div>input,
+.phone>div>input,
+.street>div>input,
+.city>div>input,
+.state>div>input,
+.zipcode>div>input,
+.country>div>input{
+    width: 100%;
+    padding: 4px;
+    border: 1px solid rgb(146, 146, 146);
+    font-size: 16px;
+}
+
+.submitbtn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#submit {
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(245, 134, 82);
+    color: white;
+}
